@@ -1,12 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-
-    // Or if using `src` directory:
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     container: {
@@ -27,10 +24,10 @@ module.exports = {
         accent: '#F13024',
       },
       backgroundImage: {
-        explosion: 'url("/bg-explosion.png")',
-        circles: 'url("/bg-circles.png")',
-        circleStar: 'url("/circle-star.svg")',
-        site: 'url("/site-bg.svg")',
+        explosion: 'url("/assests/bg-explosion.png")',
+        circles: 'url("/assests/bg-circles.png")',
+        circleStar: 'url("/assests/circle-star.svg")',
+        site: 'url("/assests/site-bg.svg")',
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',
