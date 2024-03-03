@@ -117,7 +117,7 @@ function About() {
                   <div>{item.stage}</div>
                   <div className='flex gap-x-4'>
                     {item.icons?.map((icon, idx) =>
-                      <div key={idx} className='text-2xl text-white'>{icon}</div>
+                      <div key={icon.key} className='text-2xl text-white'>{icon}</div>
                     )}
                   </div>
                 </div>
